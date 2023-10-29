@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif; /* Puedes cambiar la fuente de letra aquí */
-    background-image: url('./assets/nubes-dibujos-animados-cielo-ai-generativo-fondo-cielo-azul_958165-3919.jpg.jpg'); /* Ruta de tu imagen de fondo */
+    font-family: Arial, sans-serif; 
+    background-image: url('./assets/nubes-dibujos-animados-cielo-ai-generativo-fondo-cielo-azul_958165-3919.jpg.jpg'); 
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -17,14 +17,14 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./assets/nubes-dibujos-animados-cielo-ai-generativo-fondo-cielo-azul_958165-3919.jpg.jpg'); /* La misma imagen de fondo */
-    filter: blur(10px); /* Ajusta el valor de desenfoque según la cantidad de difuminado deseada */
+    background-image: url('./assets/nubes-dibujos-animados-cielo-ai-generativo-fondo-cielo-azul_958165-3919.jpg.jpg');
+    filter: blur(10px); 
     z-index: -1;
 }
 
 .navbar {
-    background-color: #000; /* Color de fondo del navbar (negro) */
-    color: #fff; /* Color del texto (blanco) */
+    background-color: #000;
+    color: #fff; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,15 +34,15 @@ body::before {
 }
 
 .navbar-title {
-    font-size: 60px; /* Tamaño de fuente para el título */
-    font-weight: bold; /* Negrita para el título */
-    flex-grow: 1; /* Permite que el título ocupe el espacio disponible en el centro */
-    text-align: center; /* Centra el texto en el centro del navbar */
+    font-size: 60px; 
+    font-weight: bold;
+    flex-grow: 1; 
+    text-align: center;
     margin-left: 110px;
 }
 
 .navbar-logo img {
-    max-height: 80px; /* Ajusta el tamaño de tu logo según sea necesario */
+    max-height: 80px; 
     border-radius: 80%;
     
 }
@@ -54,8 +54,8 @@ body::before {
     padding: 20px;
     width: 50%;
     border-radius: 10px;
-    margin: 0 auto; /* Centrado horizontal */
-    background-color: rgba(255, 255, 255, 0.7); /* Fondo con transparencia */
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7); 
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -68,7 +68,7 @@ body::before {
     padding: 5px;
     border-radius: 5px;
     font-size: 30px;
-    background-color: rgba(255, 255, 255, 0.324); /* Fondo con transparencia */
+    background-color: rgba(255, 255, 255, 0.324); 
 }
 
 .search-bar button {
@@ -85,12 +85,12 @@ body::before {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    width: 50vh; /* Establece el ancho del cuadrado en relación a la altura */
-    height: 50vh; /* Establece la altura del cuadrado */
-    max-width: 80%; /* Establece un ancho máximo para el cuadrado */
-    max-height: 80%; /* Establece una altura máxima para el cuadrado */
+    width: 50vh; 
+    height: 50vh;
+    max-width: 80%; 
+    max-height: 80%;
     margin-left: 480px;
-    background-color: rgba(255, 255, 255, 0.7); /* Fondo con transparencia */
+    background-color: rgba(255, 255, 255, 0.7); 
     border-radius: 10%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -102,5 +102,5 @@ body::before {
     text-align: center;
     padding: 10px;
 }
-/* Estilos adicionales que deseesagregar */
+
 
