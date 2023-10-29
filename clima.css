@@ -1,9 +1,12 @@
 :root {
     --inputBgDay: #086883;
-    --cardBgDay:rgba(4, 97, 118, 0.5);
-    --inputBgDNight: #472922;
-    --cardBgNight:hsl(11, 35%, 60%);
- }
+    --cardBgDay: rgba(4, 97, 118, 0.5);
+    --inputBgNight: #472922;
+    --cardBgNight: hsl(11, 35%, 60%);
+}
+
+
+
  
  * {
      margin: 0;
