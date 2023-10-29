@@ -3,42 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap">
-    <link rel="stylesheet" href="clima.css">
-    <title>Weather App</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>
-        <form id="form">
-            <input type="text" id="search" placeholder="Buscar...">
-            <button type="submit" id="btn-search">Enviar</button>
-        </form>
-    </header>
-
-    <main>
-        <section id="weatherContainer">
-            <div id="cityName"></div>
-            <div id="cityTemp"></div>
-            <div id="cityIcon"></div>
-            <div id="minMaxTemp">
-                <div id="min"></div>
-                <div id="max"></div>
-            </div>
-        </section>
-
-        <section id="sens-hum-container">
-            <div id="sensacion-container">
-                <p>Sensación</p>
-                <span id="sensacion"></span>
-            </div>
-            <div id="humedad-container">
-                <p>Humedad</p>
-                <span id="humedad"></span>
-            </div>
-        </section>
-    </main>
-
-    <script src="clima.js" defer></script>
+    <div class="navbar">
+        <div class="navbar-title">
+            App del Clima
+        </div>
+        <div class="navbar-logo">
+            <img src="./assets/10be8714-a57c-4bff-82a1-398945adafae.jpg" alt="Tu Logo">
+        </div>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar ciudad..." id="city-input" onkeydown="if (event.keyCode === 13) getWeatherInfo()"  />
+        <button onclick="getWeatherInfo()">Buscar</button>
+    </div>
+</div>
+<div class="weather-info" id="weather-info">
+    <h2>Información del Clima</h2>
+    <p>Por favor, ingresa una ciudad y haz clic en 'Buscar'.</p>
+</div>
+<footer class="footer">
+    <p>Nombre: Sergio Mauricio Ardila Barbosa</p>
+    <p>Correo: sardila232@gmail.com</p>
+    <p>Teléfono: 3213844605</p>
+</footer>
+<script src="./app.js"></script>
 </body>
 </html>
+

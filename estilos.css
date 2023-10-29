@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Puedes cambiar la fuente de letra aquí */
+    background-image: url('./assets/nubes-dibujos-animados-cielo-ai-generativo-fondo-cielo-azul_958165-3919.jpg.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Capa difuminada superpuesta */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/nubes-dibujos-animados-cielo-ai-generativo-fondo-cielo-azul_958165-3919.jpg.jpg'); /* La misma imagen de fondo */
+    filter: blur(10px); /* Ajusta el valor de desenfoque según la cantidad de difuminado deseada */
+    z-index: -1;
+}
+
+.navbar {
+    background-color: #000; /* Color de fondo del navbar (negro) */
+    color: #fff; /* Color del texto (blanco) */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+   
+}
+
+.navbar-title {
+    font-size: 60px; /* Tamaño de fuente para el título */
+    font-weight: bold; /* Negrita para el título */
+    flex-grow: 1; /* Permite que el título ocupe el espacio disponible en el centro */
+    text-align: center; /* Centra el texto en el centro del navbar */
+    margin-left: 110px;
+}
+
+.navbar-logo img {
+    max-height: 80px; /* Ajusta el tamaño de tu logo según sea necesario */
+    border-radius: 80%;
+    
+}
+.search-bar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0 auto; /* Centrado horizontal */
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo con transparencia */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+    
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.324); /* Fondo con transparencia */
+}
+
+.search-bar button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.weather-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50vh; /* Establece el ancho del cuadrado en relación a la altura */
+    height: 50vh; /* Establece la altura del cuadrado */
+    max-width: 80%; /* Establece un ancho máximo para el cuadrado */
+    max-height: 80%; /* Establece una altura máxima para el cuadrado */
+    margin-left: 480px;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo con transparencia */
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Estilos adicionales que deseesagregar */
+
